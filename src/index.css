@@ -80,7 +80,7 @@ section > h5 {
 }
 
 a {
-  color: var(_--color-primary);
+  color: var(--color-primary);
   transition: var(--transition);
 }
 
