@@ -11,12 +11,8 @@ const Header = () => {
       <h1>Ayodeji Abidemi</h1>
       <h5 className="text-light">Fullstack Web Developer</h5>
       <CTA />
-        <a href="#contact" className='scroll_down'>Scroll Down</a>
+      <a href="#contact" className='scroll__down'>Scroll Down</a>
       <HeaderSocials />
-
-      <div className="me">
-        <img src={ME} alt="MyImage" />
-      </div>
       
     </div>
    </header>
