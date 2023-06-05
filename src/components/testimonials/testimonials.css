@@ -32,3 +32,21 @@
 .swiper-pagination-clickable .swiper-pagination-bullets {
   background: var(--color-primary);
 }
+
+/* ====== Media Queries ======= */
+
+@media screen and (max-width: 1024px) {
+  .container.container__testimonials {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.container__testimonials {
+    width: var(--container-width-sm);
+  }
+
+  .peer__review {
+    width: var(--container-width-sm);
+  }
+}
