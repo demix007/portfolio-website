@@ -1,3 +1,34 @@
-body {
-  margin: 0;
+.container.container__testimonials {
+  width: 40%;
+  padding-bottom: 3rem;
+}
+
+.peer__avatar {
+  width: 4rem;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 0.5rem solid var(--color-primary-variant);
+}
+
+
+.testimonial {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+
+.peer__review {
+  color: var(--color-light);
+  display: block;
+  width: 80%;
+  font-weight: 300;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullets {
+  background: var(--color-primary);
 }
