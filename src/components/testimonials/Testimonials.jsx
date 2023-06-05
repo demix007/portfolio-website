@@ -54,6 +54,32 @@ const Testimonials = () => {
     <section id="testimonials">
       <h5>Testimonials from my peers</h5>
       <h2>Testimonials</h2>
+
+      <Swiper
+        className="container container__testimonials"
+        // install Swiper modules
+        modules={[Pagination]}
+        spaceBetween={50}
+        slidesPerView={1}
+        pagination={{ clickable: true }}
+      >
+        {
+          testimonials.map(({
+            id,
+            avatar,
+            name,
+            review,
+          }) => (
+            <SwiperSlide key={id} className="testimonial">
+              <div className="peer__avatar">
+                <img src={avatar} alt="" />
+              </div>
+              <h5 className="peer__name">{name}</h5>
+              <small className="peer__review">{review}</small>
+            </SwiperSlide>
+          ))
+        }
+      </Swiper>
     </section>
   );
 };
