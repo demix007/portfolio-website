@@ -1,4 +1,6 @@
 import React from 'react';
+import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './testimonials.css';
@@ -47,6 +49,13 @@ const Testimonials = () => {
       review: 'I recommend Ayodeji Abidemi to anyone looking for a software developer with skills in HTML, CSS, JavaScript, React/Redux, Ruby, Ruby on Rails. while, also being an astute problem solver',
     },
   ];
+
+  return (
+    <section id="testimonials">
+      <h5>Testimonials from my peers</h5>
+      <h2>Testimonials</h2>
+    </section>
+  );
 };
 
 export default Testimonials;
