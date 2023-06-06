@@ -1,4 +1,5 @@
 import React from 'react';
+import { ToastContainer } from  'react-toastify';
 import Header from './components/header/Header';
 import Nav from './components/nav/Nav';
 import About from './components/about/About';
@@ -20,6 +21,7 @@ const App = () => (
     <Testimonials />
     <Contact />
     <Footer />
+    <ToastContainer position="top-right" />
 
   </>
 );
