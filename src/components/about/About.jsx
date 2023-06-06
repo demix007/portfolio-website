@@ -38,10 +38,14 @@ const About = () => (
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sapiente,
-          quo ipsa hic, dolorem repudiandae enim tenetur quisquam facilis dolor placeat
-          inventore est? Consectetur aliquam exercitationem magnam quam quas reprehenderit
-          rem error nobis corporis? Officiis porro reiciendis non asperiores praesentium.
+          Full-stack web developer with an unparalleled love for clean code,
+          great UI designs, and open-source development. Pair programming and
+          remote collaboration are things I enjoy. I am proficient in multiple programming
+          languages, frameworks, and technologies.  As a full-stack developer,  I am eager to
+          collaborate with a talented team of developers, designers, and support specialists
+          to build a knowledge base tool that empowers businesses to deliver better customer
+          experiences and streamline their support operations.   I want to use my creativity
+          to create better software and solve diverse real-world challenges.
         </p>
 
         <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
