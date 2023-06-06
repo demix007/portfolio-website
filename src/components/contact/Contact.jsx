@@ -3,7 +3,9 @@ import './contact.css';
 import { MdOutlineMarkEmailRead } from 'react-icons/md';
 import { BsWhatsapp } from 'react-icons/bs';
 
+
 const Contact = () => {
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -24,6 +26,13 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone=2348163046727" target="_blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
+
+        <form >
+          <input type="text" name="name" placeholder="Your Full Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="6" required />
+          <button type="submit" className="btn btn-primary">Send Message</button>
+        </form>
       </div>
     </section>
   );
