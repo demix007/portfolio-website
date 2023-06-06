@@ -16,19 +16,31 @@ const Services = () => (
         <ul className="service__list">
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Component Development</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>RESTful API Implementation</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Responsive Design</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Integration with Backend</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Testing and Debugging</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Optimization and Performance</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Deployment and Maintenance</p>
           </li>
         </ul>
       </article>
@@ -41,19 +53,31 @@ const Services = () => (
         <ul className="service__list">
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>API Development</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Database Integration</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Authentication and Authorization</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Third Party Integrations</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Testing and Debugging</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Deployment and Scalability</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Monitoring and Maintenance</p>
           </li>
         </ul>
       </article>
@@ -66,19 +90,27 @@ const Services = () => (
         <ul className="service__list">
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>UI/UX Design</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Database Management</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>API Development</p>
           </li>
           <li>
             <BsCheck2Circle className="service__list-icon" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Testing and Quality Assurance</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Deployment</p>
+          </li>
+          <li>
+            <BsCheck2Circle className="service__list-icon" />
+            <p>Maintenance and Support</p>
           </li>
         </ul>
       </article>
