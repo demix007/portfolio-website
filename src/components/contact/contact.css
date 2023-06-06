@@ -1,3 +1,54 @@
-body {
-  margin: 0;
+.container.contact__container {
+  width: 58%;
+  display: grid;
+  grid-template-columns: 32% 58%;
+  gap: 10%;
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.contact__option {
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 1.35rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.9rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.6rem;
+  border-radius: 0.6rem;
+  background: transparent;
+  border: 2px solid var(--color-primary-variant);
+  resize: none;
+  color: var(--color-white);
 }
