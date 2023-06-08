@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './contact.css';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { MdOutlineMarkEmailRead } from 'react-icons/md';
 import { BsWhatsapp } from 'react-icons/bs';
-import { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 const Contact = () => {
@@ -23,13 +22,13 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_2u18gmb', 'template_9rgp5gt', form.current, 'f_VYO7byZVK1lE47U')
-    .then((/* result */) => {
-      const successMessage = 'Message has been sent successfully!';
-      showMessage(successMessage, 'success');
-      form.current.reset();
-    }, (/* error */) => {
-      const errorMessage = 'An error occurred while sending the email.';
-      showMessage(errorMessage, 'error');
+      .then((/* result */) => {
+        const successMessage = 'Message has been sent successfully!';
+        showMessage(successMessage, 'success');
+        form.current.reset();
+      }, (/* error */) => {
+        const errorMessage = 'An error occurred while sending the email.';
+        showMessage(errorMessage, 'error');
       });
 
     e.target.reset();
