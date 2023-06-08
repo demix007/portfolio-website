@@ -4,7 +4,7 @@ import CTA from './CTA';
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => (
-  <header id="header">
+  <header id="home">
     <div className="container header__container">
       <h5>Hello, I &apos;m</h5>
       <h1>Ayodeji Abidemi</h1>
