@@ -20,13 +20,13 @@ const Portfolio = () => {
       demo: 'https://space-travelers-hub-eta.vercel.app/',
     },
     {
-      id: 6,
+      id: 2,
       image: CarRentals,
       title: 'Car Rentals',
       description: 'This project is based on an app to book an appointment to try a dream car. App users are able to reserve their dream cars, as well as view the reservations. New cars can also be added and deleted from the app. Postgres database was used as database, Rails to create backend API, and React & Redux for frontend UI',
       technologies: ['React', 'Ruby On Rails', 'PostgreSQL', 'Bootstrap', 'CSS'],
       source: 'https://github.com/demix007/car-rentals-backend',
-      demo: 'https://cars-rental-front-end-rose.vercel.app/',
+      demo: 'https://cars-rental-front-end.vercel.app/',
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ const Portfolio = () => {
       demo: 'https://awesome-books-es-6-chi.vercel.app/',
     },
     {
-      id: 2,
+      id: 4,
       image: Bookstore,
       title: 'Bookstore',
       description: 'Book Store is a React app for seamless book and author management, seamlessly integrating with an API. Users can efficiently add and remove books with ease, ensuring a smooth experience for book enthusiasts.',
@@ -47,7 +47,7 @@ const Portfolio = () => {
       demo: 'https://bookstore-cyan.vercel.app/',
     },
     {
-      id: 4,
+      id: 5,
       image: Leaderboard,
       title: 'Leaderboard App',
       description: 'Here, I set up a JavaScript project for the Leaderboard list app, using webpack and ES6. I developed the app following a wireframe, and consumed the Leaderboard API using JavaScript async and await.',
@@ -56,7 +56,7 @@ const Portfolio = () => {
       demo: 'https://enchanting-pavlova-7392f8.netlify.app/',
     },
     {
-      id: 5,
+      id: 6,
       image: CountryFinder,
       title: 'Global Country Finder',
       description: 'This project is a react web application which has accessible data for different countries around the world. These data include region, name, population, sub-region, capital and more.Countries can be searched or filtered by region.',

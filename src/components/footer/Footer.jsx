@@ -19,7 +19,7 @@ const Footer = () => (
 
     <div className="footer__socials">
       <a href="https://github.com/demix007" target="_blank" rel="noreferrer" aria-label="Github"><FiGithub /></a>
-      <a href="linkedin.com/in/ayodejiabidemi" target="_blank" rel="noreferrer" aria-label="Linkedin"><AiFillLinkedin /></a>
+      <a href="https://linkedin.com/in/ayodejiabidemi" target="_blank" rel="noreferrer" aria-label="Linkedin"><AiFillLinkedin /></a>
       <a href="https://twitter.com/Dat_dope_demix" target="_blank" rel="noreferrer" aria-label="Twitter"><AiFillTwitterCircle /></a>
     </div>
 
