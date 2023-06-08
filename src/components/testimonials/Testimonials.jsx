@@ -9,6 +9,7 @@ import KEENAN from '../../assets/keenan.jpeg';
 import PAUL from '../../assets/paul.jpeg';
 import KASHIF from '../../assets/kashif.jpeg';
 import ALEX from '../../assets/alex.jpeg';
+import ADESANYA from '../../assets/adesanya.jpeg';
 
 const Testimonials = () => {
   const testimonials = [
@@ -43,7 +44,7 @@ const Testimonials = () => {
       review: 'Ayodeji is a very hard-working person who can tackle any software development problem with ease. We have worked together on several projects, and I found him highly skilled and dedicated professional. He uses software development skills, attention to detail, and critical thinking to tackle and solve technical problems. He has proven his skillset and coding ability as a web developer by building multiple peer programming projects in React, JavaScript and Bootstrap. I am glad to have worked with him and have no hesitation in recommending him to potential employers',
     },
     {
-      avatar: ABDUL,
+      avatar: ADESANYA,
       id: 4,
       name: 'Adejuwon Adesanya',
       review: 'I recommend Ayodeji Abidemi to anyone looking for a software developer with skills in HTML, CSS, JavaScript, React/Redux, Ruby, Ruby on Rails. while, also being an astute problem solver',
