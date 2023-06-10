@@ -63,7 +63,7 @@ const Portfolio = () => {
       description: 'Here, I set up a JavaScript project for the Leaderboard list app, using webpack and ES6. I developed the app following a wireframe, and consumed the Leaderboard API using JavaScript async and await.',
       technologies: ['React', 'HTML', 'CSS'],
       source: 'https://github.com/demix007/Leaderboard',
-      demo: 'https://enchanting-pavlova-7392f8.netlify.app/',
+      demo: 'https://demixleaderboard.netlify.app/',
     },
     {
       id: 7,
