@@ -8,9 +8,29 @@ import CountryFinder from '../../assets/country_finder.png';
 import Leaderboard from '../../assets/leaderboard.png';
 import CarRentals from '../../assets/car_rentals.png';
 import CRYPTO from '../../assets/crypto.png';
+import RealEstate from '../../assets/real-estate.png';
+import Education from '../../assets/education.png';
 
 const Portfolio = () => {
   const data = [
+    {
+      id: 1,
+      image: Education,
+      title: 'Education Website',
+      description: 'This site showcases an education website with well crafted UI and multiple pages. The project is built with React, HTML, and CSS.',
+      technologies: ['React', 'HTML', 'CSS'],
+      source: 'https://github.com/demix007/education-website',
+      demo: 'https://education-website-pied.vercel.app/',
+    },
+    {
+      id: 1,
+      image: RealEstate,
+      title: 'Real Estate',
+      description: 'This application is React application that displays a list of houses for sale and rental. The project is built with React, HTML, and CSS.',
+      technologies: ['React', 'HTML', 'CSS'],
+      source: 'https://github.com/demix007/real-estate',
+      demo: 'https://real-estate-website-hazel-seven.vercel.app/',
+    },
     {
       id: 1,
       image: SpaceTravelers,
